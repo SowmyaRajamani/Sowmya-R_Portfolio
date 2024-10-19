@@ -1,0 +1,56 @@
+<!DOCTYPE html>  <!--this document is an HTML5 document-->
+<html>          <!--root element of an HTML page-->
+    <head>      <!--meta information about the HTML page-->
+        <title> SOWMYA R_PROFESSIONAL PORTFOLIO </title>
+        <style>
+            <!--Background page colour-->
+        body {
+            background-color: #c5c6c7;
+          }
+          <!-- Navigation bar styles-->
+          body {
+  margin: 0,auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #73787c;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #c5c6c7;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: #000;
+  color: white;
+}
+
+        </style>
+    </head>
+    <body>      <!--for all the visible contents-->
+        <ul>
+            <li><a class="active" href="#home">Personal Data</a></li>
+            <li><a href="#news">About</a></li>
+            <li><a href="#contact">Skills</a></li>
+            <li><a href="#about">Work Experience</a></li>
+            <li><a href="#about">Project Management Skills</a></li>
+            <li><a href="#about">Certification</a></li>
+            <li><a href="#about">Education Details</a></li>
+          </ul>
+    </body>
+</html>
